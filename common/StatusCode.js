@@ -1,0 +1,10 @@
+
+const RESPONSE_STATUS_CODE = {
+    "SUCCESS": 200,
+    "UNAUTORIZED": 401,
+    "NOT_FOUND": 404
+};
+
+Object.freeze(RESPONSE_STATUS_CODE);
+
+module.exports = RESPONSE_STATUS_CODE
